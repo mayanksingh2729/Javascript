@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pyramid Pattern</title>
+    <style></style>
+  </head>
+  <body>
+    <h1>Pyramid Pattern</h1>
+    <script>
+      for (let i = 1; i <= 5; i++) {
+        for (let k = 4; k >= i; k--) {
+          document.write("&nbsp");
+        }
+        for (let j = 1; j <= i; j++) {
+          document.write("*&nbsp");
+        }
+        document.write("<br/>");
+      }
+    </script>
+
+
+
+    <h1>Reverse Pyramid</h1>
+    <script>
+      for (let i = 0; i < 5; i++) {
+        for (let k = 0; k <= i; k++) {
+          document.write("&nbsp");
+        }
+        for (let j = 1; j <= 5 - i; j++) {
+          document.write("*&nbsp");
+        }
+        document.write("<br/>");
+      }
+    </script>
+
+
+
+    <h1>Right Angle Triangle</h1>
+    <script>
+      for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j <= i; j++) {
+          document.write("*");
+        }
+        document.write("<br/>");
+      }
+    </script>
+
+
+
+    <h1>Upside Down Right Angle Triangle</h1>
+    <script>
+      for (let i = 1; i <= 5; i++) {
+        for (let j = 5 - i; j >= 1; j--) {
+          document.write("*");
+        }
+        document.write("<br/>");
+      }
+    </script>
+    
+    
+    
+    <h1>Rhombus Pattern</h1>
+    <script>
+      for (let i = 1; i <= 5; i++) {
+        for (let k = 4; k >= i; k--) {
+          document.write("&nbsp");
+        }
+        for (let j = 1; j <= i; j++) {
+          document.write("*&nbsp");
+        }
+        document.write("<br/>");
+      }
+      for (let i = 1; i < 5; i++) {
+        for (let k = 1; k <= i; k++) {
+          document.write("&nbsp");
+        }
+        for (let j = 1; j <= 5 - i; j++) {
+          document.write("*&nbsp");
+        }
+        document.write("<br/>");
+      }
+    </script>
+  </body>
+</html>
